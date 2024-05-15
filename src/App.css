@@ -1,0 +1,106 @@
+html{
+  font-size: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  background: linear-gradient(rgba(0,0,0,0.84),rgba(0,0,0,1));
+  overflow: hidden;
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.logo{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  opacity: 0.7;
+  width: 8rem;
+}
+
+.heading-1{
+  text-align: center;
+  font-size: 7.2rem;
+  margin-top: 12.2rem;
+  font-family: Arial,Helvetica,sans-serif;
+  background: linear-gradient(90deg,#a929ff 10%,#ff22b5 40%,#1548ff 90%,#a929ff);
+  background-size: 200% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: first_gradientChange__Q12yI 7s ease-in infinite;
+}
+
+@keyframes first_gradientChange__Q12yI{
+  0%{
+    background-position: 200% center;
+  }
+  25%{
+    background-position: 100% center;
+  }
+  50%{
+    background-position: 0% center;
+  }
+  75%{
+    background-position: -100% center;
+  }
+  100%{
+    background-position: -200% center;
+  }
+}
+
+.heading-2{
+  color: #ffffff;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-size: 5.6rem;
+  margin-top: 12.2rem;
+}
+
+.heading-3{
+  color: #d3d3d3e5;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-size: 3rem;
+  margin-top: 2.9rem;
+}
+
+.background-div{
+  position: absolute;
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.title{
+  color: #ffffff;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 30.2rem;
+}
+
+.text-content{
+  color: #ffffff;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-size: 1.5rem;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  line-height: 2.25rem;
+  margin-top: 2.7rem;
+}
